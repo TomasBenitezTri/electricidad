@@ -1,0 +1,202 @@
+body{
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: bolder;
+  background-image: url(../../Imagenes/Fondo.png);
+}
+
+.imagenmotor{
+  background-image: url(../../Imagenes/bobinado.jpg);
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 11%;
+  margin: 15px;
+  margin-top: 40px;
+  width: 80%;
+}
+h1, h2, h3{
+  margin: 5px;
+}
+
+h1{
+  font-size: 6vw;
+}
+
+h2{
+  font-size: 4vw;
+}
+
+h3{
+  font-size: 2vw;
+}
+.caja_general{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2vw;
+}
+.cajanavlink{
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: rgb(241, 65, 65);
+  margin: 5px;
+  padding: 20px;
+  width: 12vw;
+  border-radius: 10px;
+  background: linear-gradient(rgb(152, 248, 216), rgb(153, 153, 214));
+}
+
+.imagentablero{
+  background-image: url(../../Imagenes/tablero.jpg);
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20%;
+  margin: 1px;
+  width: 100%;
+
+}
+.imagentablero2{
+  background-image: url(../../Imagenes/grafico_tablero.jpg);
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 1px;
+  width: 100%;
+  padding: 20%;
+}
+@media screen and (max-width: 490px) {
+
+  h1{
+    font-size: 5vw;
+  }
+  
+  h2{
+    font-size: 4vw;
+  }
+  
+  h3{
+    font-size: 3vw;
+  }
+  .nav{
+    font-size: 3vw;
+    
+  }
+  .cajanavlink{
+    margin: 1px;
+    padding: 10px;
+  }
+}
+
+/** Home **/
+
+.caja_home{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+}
+
+.imagent1{
+  background-image: url(../../Imagenes/bobinado.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30vw;
+  height: 30vw;
+  margin: 5px;
+
+}
+.imagent2{
+  background-image: url(../../Imagenes/trabajo3.jpg);
+  background-size: 96.3%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30vw;
+  height: 30vw;
+  margin: 5px;
+
+}
+.imagent3{
+  background-image: url(../../Imagenes/bobinado2.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30vw;
+  height: 30vw;
+  margin: 5px;
+
+}
+
+.imagent4{
+  background-image: url(../../Imagenes/PinzaFluke.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30vw;
+  height: 30vw;
+  margin: 5px;
+
+}
+
+/** Trabajos **/
+
+.caja_general_trabajos{
+  display: flex;
+  justify-content: center;
+}
+
+.caja_trabajos{
+  width: 80vw;
+}
+
+.imagentra1{
+  background-image: url(../../Imagenes/foto_motor1.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30vw;
+  height: 30vw;
+  margin: auto;
+
+}
+.imagentra2{
+  background-image: url(../../Imagenes/grafico_tablero.jpg);
+  background-size: 96.3%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30vw;
+  height: 30vw;
+  margin: auto;
+
+}
+.imagentra3{
+  background-image: url(../../Imagenes/tablero.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30vw;
+  height: 30vw;
+  margin: auto;
+
+}
+
+.imagentra4{
+  background-image: url(../../Imagenes/tablero.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30vw;
+  height: 30vw;
+  margin: auto;
+
+}
