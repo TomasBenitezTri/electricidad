@@ -2,11 +2,11 @@ body{
   text-align: center;
   font-family: 'Roboto';
   font-weight: bolder;
-  background-image: url(../../Imagenes/Fondo.png);
+  background-image: url(../Imagenes/Fondo.png);
 }
 
 .imagenmotor{
-  background-image: url(../../Imagenes/bobinado.jpg);
+  background-image: url(../Imagenes/bobinado.jpg);
   background-size: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,7 +55,7 @@ h3{
 }
 
 .imagentablero{
-  background-image: url(../../Imagenes/tablero.jpg);
+  background-image: url(../Imagenes/tablero.jpg);
   background-size: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -65,7 +65,7 @@ h3{
 
 }
 .imagentablero2{
-  background-image: url(../../Imagenes/grafico_tablero.jpg);
+  background-image: url(../Imagenes/grafico_tablero.jpg);
   background-size: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -107,7 +107,7 @@ h3{
 }
 
 .imagent1{
-  background-image: url(../../Imagenes/bobinado.jpg);
+  background-image: url(../Imagenes/bobinado.jpg);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -117,7 +117,7 @@ h3{
 
 }
 .imagent2{
-  background-image: url(../../Imagenes/trabajo3.jpg);
+  background-image: url(../Imagenes/trabajo3.jpg);
   background-size: 96.3%;
   background-position: center;
   background-repeat: no-repeat;
@@ -127,7 +127,7 @@ h3{
 
 }
 .imagent3{
-  background-image: url(../../Imagenes/bobinado2.jpg);
+  background-image: url(../Imagenes/bobinado2.jpg);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -138,7 +138,7 @@ h3{
 }
 
 .imagent4{
-  background-image: url(../../Imagenes/PinzaFluke.jpg);
+  background-image: url(../Imagenes/PinzaFluke.jpg);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -160,7 +160,7 @@ h3{
 }
 
 .imagentra1{
-  background-image: url(../../Imagenes/foto_motor1.jpg);
+  background-image: url(../Imagenes/foto_motor1.jpg);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -170,7 +170,7 @@ h3{
 
 }
 .imagentra2{
-  background-image: url(../../Imagenes/grafico_tablero.jpg);
+  background-image: url(../Imagenes/grafico_tablero.jpg);
   background-size: 96.3%;
   background-position: center;
   background-repeat: no-repeat;
@@ -180,7 +180,7 @@ h3{
 
 }
 .imagentra3{
-  background-image: url(../../Imagenes/tablero.jpg);
+  background-image: url(../Imagenes/tablero.jpg);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -191,7 +191,7 @@ h3{
 }
 
 .imagentra4{
-  background-image: url(../../Imagenes/tablero.jpg);
+  background-image: url(../Imagenes/tablero.jpg);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
