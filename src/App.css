@@ -1,20 +1,4 @@
-body{
-  text-align: center;
-  font-family: 'Roboto';
-  font-weight: bolder;
-  background-image: url(../Imagenes/Fondo.png);
-}
 
-.imagenmotor{
-  background-image: url(../Imagenes/bobinado.jpg);
-  background-size: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 11%;
-  margin: 15px;
-  margin-top: 40px;
-  width: 80%;
-}
 h1, h2, h3{
   margin: 5px;
 }
@@ -29,13 +13,14 @@ h2{
 
 h3{
   font-size: 2vw;
+  margin-bottom: 5px;
 }
-.caja_general{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-bottom: 30px;
+
+h4{
+  font-size: 1.5vw;
+  margin: 5px;
 }
+
 .nav{
   display: flex;
   flex-wrap: wrap;
@@ -54,48 +39,6 @@ h3{
   background: linear-gradient(rgb(152, 248, 216), rgb(153, 153, 214));
 }
 
-.imagentablero{
-  background-image: url(../Imagenes/tablero.jpg);
-  background-size: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20%;
-  margin: 1px;
-  width: 100%;
-
-}
-.imagentablero2{
-  background-image: url(../Imagenes/grafico_tablero.jpg);
-  background-size: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 1px;
-  width: 100%;
-  padding: 20%;
-}
-@media screen and (max-width: 490px) {
-
-  h1{
-    font-size: 5vw;
-  }
-  
-  h2{
-    font-size: 4vw;
-  }
-  
-  h3{
-    font-size: 3vw;
-  }
-  .nav{
-    font-size: 3vw;
-    
-  }
-  .cajanavlink{
-    margin: 1px;
-    padding: 10px;
-  }
-}
-
 /** Home **/
 
 .caja_home{
@@ -105,26 +48,23 @@ h3{
   flex-wrap: wrap;
   width: 80vw;
 }
-
 .imagent1{
   background-image: url(../Imagenes/bobinado.jpg);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
   width: 30vw;
-  height: 30vw;
+  height: 20vw;
   margin: 5px;
-
 }
 .imagent2{
   background-image: url(../Imagenes/trabajo3.jpg);
-  background-size: 96.3%;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
   width: 30vw;
-  height: 30vw;
+  height: 20vw;
   margin: 5px;
-
 }
 .imagent3{
   background-image: url(../Imagenes/bobinado2.jpg);
@@ -132,7 +72,7 @@ h3{
   background-position: center;
   background-repeat: no-repeat;
   width: 30vw;
-  height: 30vw;
+  height: 20vw;
   margin: 5px;
 
 }
@@ -143,10 +83,12 @@ h3{
   background-position: center;
   background-repeat: no-repeat;
   width: 30vw;
-  height: 30vw;
+  height: 20vw;
   margin: 5px;
 
 }
+
+/** Fin Home **/
 
 /** Trabajos **/
 
@@ -156,47 +98,172 @@ h3{
 }
 
 .caja_trabajos{
-  width: 80vw;
+  width: 50vw;
+}
+
+.reseña-trabajo{
+  margin: 20px;
+  border: 1px solid blue;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 1.5vw;
 }
 
 .imagentra1{
-  background-image: url(../Imagenes/foto_motor1.jpg);
+  background-image: url(../Imagenes/Trabajos/tablero.jpg);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  width: 30vw;
-  height: 30vw;
+  width: 40vw;
+  height: 22vw;
   margin: auto;
-
+  border-radius: 10px;
 }
 .imagentra2{
-  background-image: url(../Imagenes/grafico_tablero.jpg);
-  background-size: 96.3%;
+  background-image: url(../Imagenes/Trabajos/prueba_aislamiento.jpg);
+  background-size: 90%;
   background-position: center;
   background-repeat: no-repeat;
-  width: 30vw;
+  width: 40vw;
   height: 30vw;
   margin: auto;
-
+  
 }
 .imagentra3{
-  background-image: url(../Imagenes/tablero.jpg);
+  background-image: url(../Imagenes/Trabajos/Pinza-cofimetrica.jpg);
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40vw;
+  height: 30vw;
+  margin: auto;
+  
+}
+.imagentra4{
+  background-image: url(../Imagenes/Trabajos/banco-de-condensadores.jpg);
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40vw;
+  height: 30vw;
+  margin: auto;
+  border-radius: 10px;
+}
+.imagentra5{
+  background-image: url(../Imagenes/Trabajos/rebobinado-de-motores-elctricos.jpg);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  width: 30vw;
+  width: 40vw;
   height: 30vw;
   margin: auto;
+  border-radius: 10px;
+}
+.imagentra6{
+  background-image: url(../Imagenes/grafico_tablero.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40vw;
+  height: 30vw;
+  margin: auto;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+
+  .caja_trabajos{
+    width: 100vw;
+  }
+
+  .reseña-trabajo{
+    font-size: 3vw;
+  }
+
+  .imagentra1{
+    width: 80vw;
+    height: 50vw;  
+  }
+  .imagentra2{
+    width: 80vw;
+    height: 50vw;
+  }
+  .imagentra3{
+    width: 60vw;
+    height: 60vw;
+  }
+  .imagentra4{
+    width: 70vw;
+    height: 70vw;
+    background-size: 90%;
+  }
+  .imagentra5{
+    width: 80vw;
+    height: 40vw;
+  }
+  .imagentra6{
+    width: 70vw;
+    height: 45vw;
+  }
+
+  /**Home**/
+  h1{
+    font-size: 9vw;
+  }
+  
+  h2{
+    font-size: 6vw;
+  }
+  
+  h3{
+    font-size: 4vw;
+  }
+
+  h4{
+    font-size: 3vw;
+  }
+
+  .nav{
+    font-size: 4.6vw;
+  }
+
+  .cajanavlink{
+    width: 12vw;
+    flex-wrap: wrap;
+  }
+
+  .caja_home{
+    width: 100%;
+  }
+
+  .imagent1{
+    width: 45vw;
+
+  }
+  .imagent2{
+    width: 45vw;
+  }
+  .imagent3{
+    width: 45vw;
+  }
+  .imagent4{
+    width: 45vw;
+  }
 
 }
 
-.imagentra4{
-  background-image: url(../Imagenes/tablero.jpg);
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 30vw;
-  height: 30vw;
-  margin: auto;
+@media screen and (max-width: 360px) {
+  .imagent1{
+    width: 40vw;
 
+  }
+  .imagent2{
+    width: 40vw;
+  }
+  .imagent3{
+    width: 40vw;
+  }
+  .imagent4{
+    width: 40vw;
+  }
 }

@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    background-image: url(../Imagenes/Fondo.png);
+  }
+
+  .caja_general{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+
+  /** Blog **/
