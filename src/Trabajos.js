@@ -10,15 +10,15 @@ const Trabajos = (props) => {
       actuadores, temporizadores, variadores de frecuencia, contadores, 
       señalización de estados eléctricos y más.</h4>
       </div>
-      <div className="reseña-trabajo"> <h3>Prueba de aislamiento con megohmetro</h3>
+      <div className="reseña-trabajo"> <h3>Prueba de aislamiento</h3>
       <div className="imagentra2"></div><h4>
-      Se determina el aislamiento del conductor, 
+      Utilizando un megohmetro se determina el aislamiento del conductor, 
       ya sea en una instalación monofasica o trifasica 
       como en las bobinas de un motor.</h4>
       </div>
       <div className="reseña-trabajo"><h3> Control de potencias</h3> 
       <div className="imagentra3"></div><h4>
-      Se miden las potencias activa, aparente y reactiva. 
+      Empleando una pinza cofimétrica se miden las potencias activa, aparente y reactiva. 
       Se realiza el triángulo de potencias y se prodece a evaluar la necesidad de 
        incorporar filtros de red y/o banco de condensadores.</h4>
       </div>
