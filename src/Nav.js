@@ -3,13 +3,13 @@ import { NavLink } from 'react-router-dom';
 
 const Nav = (props) =>{
     return(
-        <div className='caja_general'>
-        <div className='nav'>
-            <div className='cajanav'> <NavLink to='/' className='cajanavlink'> Inicio </NavLink> </div>
-            <div className='cajanav'> <NavLink to='/trabajos' className='cajanavlink'> Trabajos </NavLink> </div>
-            <div className='cajanav'> <NavLink to='/blog' className='cajanavlink'> Blog </NavLink> </div>
-        </div>
-        </div> 
+        <nav className='caja_general'>
+        <form className='nav'>
+            <a className='cajanav'> <NavLink to='/' className='cajanavlink'> Inicio </NavLink> </a>
+            <a className='cajanav'> <NavLink to='/trabajos' className='cajanavlink'> Trabajos </NavLink> </a>
+            <a className='cajanav'> <NavLink to='/blog' className='cajanavlink'> Blog </NavLink> </a>
+        </form>
+        </nav> 
     );
 }
 export {Nav};

@@ -1,3 +1,5 @@
+/** General **/
+
 body{
     text-align: center;
     font-family: 'Roboto';
@@ -12,4 +14,99 @@ body{
     margin-bottom: 30px;
   }
 
+  /** Footer **/
+
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    border: 1px solid blue;
+    border-radius: 30px;
+    background: rgb(203, 241, 145);
+    opacity: 0.7;
+  }
+  .h3_footer{
+    margin: 10px;
+    padding: 5px;
+  }
+
   /** Blog **/
+
+  .caja_articulo{
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .enlace_blog{
+    text-decoration: none;
+  }
+
+  .Caja_1_blog{
+    display: flex;
+    justify-content: center;
+  }
+
+  .Caja_2_blog{
+    width: 50vw;
+  }
+
+  .imagen_blog_1{
+    background-image: url(../Imagenes/Blog/materiales-conductores.jpg) ;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 20vw;
+    margin: 5px;
+  }
+  .imagen_blog_2{
+    background-image: url(../Imagenes/Blog/banco_condensadores.jpg) ;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 20vw;
+    margin: 5px;
+  }
+  .imagen_blog_3{
+    background-image: url(../Imagenes/Blog/plc.jpg) ;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 20vw;
+    margin: 5px;
+  }
+  .imagen_blog_4{
+    background-image: url(../Imagenes/Blog/armonicos.jpg) ;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 20vw;
+    margin: 5px;
+  }
+  .imagen_blog_5{
+    background-image: url(../Imagenes/Blog/megado.jpg) ;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 20vw;
+    margin: 5px;
+  }
+  .imagen_blog_6{
+    background-image: url(../Imagenes/Blog/foto_motor1.jpg) ;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 20vw;
+    margin: 5px;
+  }
+  @media screen and (max-width: 600px) {
+    .Caja_2_blog{
+      width: 100vw;
+    }
+  }

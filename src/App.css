@@ -1,3 +1,4 @@
+/** General **/
 
 h1, h2, h3{
   margin: 5px;
@@ -206,7 +207,7 @@ h4{
     height: 45vw;
   }
 
-  /**Home**/
+  /**Home media-screen**/
   h1{
     font-size: 9vw;
   }

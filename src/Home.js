@@ -10,10 +10,10 @@ const Home = (props) => {
       <h3>Reparación, evaluación y bobinado de motores electricos trifásicos y monofásicos.</h3>
       
       <div className="caja_home">
-      <div className="imagent1"></div>
-      <div className="imagent2"></div>
-      <div className="imagent3"></div>
-      <div className="imagent4"></div>
+      <img className="imagent1"></img>
+      <img className="imagent2"></img>
+      <img className="imagent3"></img>
+      <img className="imagent4"></img>
       </div>
 
       </header>
