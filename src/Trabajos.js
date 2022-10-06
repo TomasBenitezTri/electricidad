@@ -28,7 +28,7 @@ const Trabajos = (props) => {
       </section>
       <section className="reseña-trabajo"><h3> Evaluación, reparación y bobinado de motores eléctricos</h3>
       <img className="imagentra5"></img><h4>
-      Con el empleo de megohmetro, pinza cofimetrica y demas herramientas idóneas
+      Con el empleo de megohmetro, pinza cofimetrica y demás herramientas idóneas
       verificamos el estado del motor, con ello procedemos evaluar si
       el motor necesita un mantenimiento correctivo, preventivo o rebobinado.</h4>
       </section>
