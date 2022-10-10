@@ -255,16 +255,55 @@ h4{
 
 @media screen and (max-width: 360px) {
   .imagent1{
-    width: 40vw;
-
+    width: 100vw;
+    height: 45vw;
   }
   .imagent2{
-    width: 40vw;
+    width: 100vw;
+    height: 45vw;
   }
   .imagent3{
-    width: 40vw;
+    width: 100vw;
+    height: 45vw;
   }
   .imagent4{
-    width: 40vw;
+    width: 100vw;
+    height: 45vw;
+  }
+
+    /**Trabajo media-screen**/
+
+  .reseña-trabajo{
+    margin: 1px;
+    padding: 2px;
+  }
+
+  .imagentra1{
+    width: 90vw;
+    height: 50vw;  
+  }
+  .imagentra2{
+    width: 90vw;
+    height: 50vw;
+    background-size: 100%;
+  }
+  .imagentra3{
+    width: 80vw;
+    height: 70vw;
+    background-size: 100%;
+  }
+  .imagentra4{
+    width: 80vw;
+    height: 80vw;
+    background-size: 100%;
+  }
+  .imagentra5{
+    width: 90vw;
+    height: 50vw;
+  }
+  .imagentra6{
+    width: 95vw;
+    height: 65vw;
+    background-size: 100%;
   }
 }

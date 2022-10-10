@@ -109,4 +109,33 @@ body{
     .Caja_2_blog{
       width: 100vw;
     }
+
+    .imagen_blog_1{
+      width: 80vw;
+      height: 50vw;
+    }
+    .imagen_blog_2{
+      width: 80vw;
+      height: 50vw;
+
+    }
+    .imagen_blog_3{
+      width: 80vw;
+      height: 50vw;
+
+    }
+    .imagen_blog_4{
+      width: 80vw;
+      height: 50vw;
+
+    }
+    .imagen_blog_5{
+      width: 80vw;
+      height: 50vw;
+
+    }
+    .imagen_blog_6{
+      width: 80vw;
+      height: 35vw;
   }
+}
