@@ -1,11 +1,18 @@
 /** General **/
-
+@font-face {
+  font-family: 'electrical';
+  src: url(../Imagenes/electrical.ttf);
+}
 h1, h2, h3{
   margin: 5px;
 }
 
 h1{
   font-size: 6vw;
+  font-family: 'electrical';
+  font-weight: 100;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 2px rgb(60, 7, 252);
 }
 
 h2{
