@@ -5,8 +5,6 @@ const Automatizacion = (props) => {
     <div className="">
     <h2>Protecciones Eléctricas</h2>
     <span>
-    <h3>Protección de los motores eléctricos</h3>
-    Curva generic de un relé de protección de sobrecargas. Curva de protección de un guardamotor electromagnético. Curvas de las protecciones de un PIA
     Los motores eléctricos requieren dos tipos básicos de protecciones: por cortocircuito (que puede ocurrir en sus bobinados o en los cables de su alimentación) y por sobrecarga. Se pueden completar con otras como: subtensión, sobretensión y puesta a tierra. Para hacer estas últimas protecciones se necesitan ciertos relés o dispositivos especialmente diseñados; para hacer las dos primeras de las protecciones mencionadas, se necesitan, para el caso de cortocircuito, fusibles y guardamotores magnéticos, y para el caso de las sobrecargas, relés de sobrecarga y guardamotores termomagnéticos, los cuales pueden estar relacionados con los elementos de maniobra como los contactores.
     Estas relaciones entre los distintos elementos de maniobra y protección se visualizan en los denominados esquemas funcionales, los cuales se diseñan de acuerdo a la forma en que ha de trabajar el motor eléctrico y de su potencia.
     La utilización de los distintos tipos de aparatos de maniobras (contactores, interruptores, interruptores automáticos, etcétera) y de protección disponibles (fusibles, guardamotores, relés automáticos, etcétera) permite la realización de diversos esquemas de comando y control para el funcionamiento.
