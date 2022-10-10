@@ -42,6 +42,10 @@ body{
     text-decoration: none;
   }
 
+  span{
+    font-size: 4vw;
+  }
+
   .Caja_1_blog{
     display: flex;
     justify-content: center;
