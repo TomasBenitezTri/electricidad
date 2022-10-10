@@ -3,16 +3,17 @@ import React from "react";
 const Automatizacion = (props) => {
     return(
     <div className="">
-    <h2>Automatización</h2>
+    <h2>Protecciones Eléctricas</h2>
     <span>
-   
-Los PLC se usan en diversas aplicaciones en plantas energéticas, sistemas de red eléctrica inteligente, unidades de fabricación, monitorización de herramientas o equipos para maquinaria, creación del sistema y funciones de control de procesos. Exploraremos algunos de los casos de uso de los PLC empleados en la automatización industrial.
-a_ Sistema automático de mezcla y envasado con PLC en el sector de las bebidas y los jugos
-En un sistema automático de mezcla y envasado inicialmente se mezclan dos líquidos (agua y proteína líquida) de dos contenedores diferentes en otro contenedor, como lo muestra la figura 2. La solución mezclada se debe envasar en las botellas una a una. El botón de inicio arranca el funcionamiento de todo el sistema. Aquí la salida del sensor es la entrada del PLC y las salidas del PLC controlan las válvulas, el mezclador y la cinta transportadora. El primer líquido (agua) fluye hacia el contenedor de mezclado durante 10 segundos. Luego el segundo líquido fluye hacia el contenedor de mezclado durante 15 segundos. La operación de mezclado dura 20 segundos. El botón de parada controla el funcionamiento. Haga clic aquí para más información sobre los productos de controlador de procesos.
-b_ Procesar vidrios planos y controlar la proporción de los materiales usando el controlador PLC en el sector del vidrio
-En el sector del vidrio los PLC se usan para controlar la proporción de los materiales y procesar vidrios planos. La tecnología en evolución constante ha avanzado con los años y por consiguiente se ha creado una demanda de crecimiento consistente del modo de control por PLC en el sector de los vidrios. La producción de vidrios es un proceso sofisticado. Las empresas involucradas con frecuencia utilizan PLC con tecnología BUS como modo de control. EL PLC registra datos analógicos en la producción de los vidrios y control de posición y calidad digital en el proceso.
-c_ Mezcla de materias primas usando PLC en el sector de la fabricación de cemento
-La fabricación del cemento involucra la mezcla de diferentes materias primas en un horno. La calidad del producto final se ve afectada por esas materias primas y sus proporciones respectivas. Los datos deben ser exactos para garantizar el uso de las cantidades y calidades correctas de la materia prima. Un sistema de control distribuido consiste en PLC en modo de usuario y software de configuración, que se usan en los procesos de gestión y producción. Los PLC específicamente controlan los hornos de carbón, hornos verticales y molinos de bolas.
+    <h3>Protección de los motores eléctricos</h3>
+    Curva generic de un relé de protección de sobrecargas. Curva de protección de un guardamotor electromagnético. Curvas de las protecciones de un PIA
+    Los motores eléctricos requieren dos tipos básicos de protecciones: por cortocircuito (que puede ocurrir en sus bobinados o en los cables de su alimentación) y por sobrecarga. Se pueden completar con otras como: subtensión, sobretensión y puesta a tierra. Para hacer estas últimas protecciones se necesitan ciertos relés o dispositivos especialmente diseñados; para hacer las dos primeras de las protecciones mencionadas, se necesitan, para el caso de cortocircuito, fusibles y guardamotores magnéticos, y para el caso de las sobrecargas, relés de sobrecarga y guardamotores termomagnéticos, los cuales pueden estar relacionados con los elementos de maniobra como los contactores.
+    Estas relaciones entre los distintos elementos de maniobra y protección se visualizan en los denominados esquemas funcionales, los cuales se diseñan de acuerdo a la forma en que ha de trabajar el motor eléctrico y de su potencia.
+    La utilización de los distintos tipos de aparatos de maniobras (contactores, interruptores, interruptores automáticos, etcétera) y de protección disponibles (fusibles, guardamotores, relés automáticos, etcétera) permite la realización de diversos esquemas de comando y control para el funcionamiento.
+    Para la determinación de los parámetros eléctricos de la protección de los motores hace falta conocer: corriente nominal o asignada, corriente de arranque, tiempo de arranque y características del equipo impulsado. Al respecto de estos parámetros, de los dos últimos se puede decir: que el tiempo de arranque es extremadamente breve e imposible de determinar en forma simple; y en cuanto a las características del equipo impulsado, solo se puede apreciar a simple vista si el motor eléctrico lo hace rápidamente o no.
+
+    <h3>Protección contra cortocircuitos</h3>
+    Se emplean fusibles o guardamotores magnéticos. En el caso de los primeros, son especialmente construidos y son del tipo aM. La corriente eléctrica nominal de estos fusibles puede tomarse para los motores eléctricos con rotor en cortocircuito como: 2,0 x IN. En donde IN es la corriente nominal o asignada. El guardamotor que es solamente magnético cumple la misma función que los fusibles, y se usa la misma forma de elegir el calibre.
     </span>
     </div>
   );

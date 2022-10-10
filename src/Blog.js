@@ -25,7 +25,7 @@ const Blog = (props) => {
 
       <article className="caja_articulo">
       <NavLink to='/automatizacion' className='enlace_blog'> 
-        <h3 className="titulo_blog">Automatización indutrial con micro PLCs</h3>
+        <h3 className="titulo_blog">Protecciones eléctricas</h3>
           <img className="imagen_blog_3"></img>
       </NavLink>
       </article>
