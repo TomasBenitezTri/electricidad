@@ -6,8 +6,8 @@ const Trabajos = (props) => {
       <div className="caja_trabajos">
       <section className="reseña-trabajo"><h3>Tableros automatizados</h3>
       <img className="imagentra1"></img><h4>
-      Instalación de tableros de comando-potencia empleando micro PLCs, contactores,
-      actuadores, temporizadores, variadores de frecuencia, contadores, fusibles,
+      Instalación de tableros de comando-potencia empleando contactores,
+      actuadores, temporizadores, variadores de frecuencia, fusibles,
       señalización de estados eléctricos y más.</h4>
       </section>
       <section className="reseña-trabajo"> <h3>Prueba de aislamiento</h3>
