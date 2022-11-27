@@ -75,8 +75,8 @@ h4{
   margin: 5px;
 }
 .imagent3{
-  background-image: url(../Imagenes/bobinado2.jpg);
-  background-size: 100%;
+  background-image: url(../Imagenes/aea.jpg);
+  background-size: 70%;
   background-position: center;
   background-repeat: no-repeat;
   width: 30vw;
@@ -170,6 +170,16 @@ h4{
 .imagentra6{
   background-image: url(../Imagenes/grafico_tablero.jpg);
   background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40vw;
+  height: 30vw;
+  margin: auto;
+  border-radius: 10px;
+}
+.imagentra7{
+  background-image: url(../Imagenes/aea.jpg);
+  background-size: 70%;
   background-position: center;
   background-repeat: no-repeat;
   width: 40vw;

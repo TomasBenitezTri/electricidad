@@ -5,7 +5,7 @@ const Home = (props) => {
     <div className="App">
       <header className="Header">
 
-      <h3>Trabajos en electricidad industrial, comercial y domiciliaria.</h3>
+      <h3>Trabajos en electricidad industrial, comercial y domiciliaria, respetando las reglamentaciones AEA.</h3>
 
       <h3>Reparación, evaluación y bobinado de motores eléctricos trifásicos y monofásicos.</h3>
       
