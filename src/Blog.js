@@ -17,8 +17,15 @@ const Blog = (props) => {
       </article>
 
       <article className="caja_articulo">
+      <NavLink to='/informe' className='enlace_blog'>
+        <h3 className="titulo_blog">  Reglamentaciones básicas   </h3>
+          <img className="imagen_blog_7"></img>
+      </NavLink>
+      </article>
+
+      <article className="caja_articulo">
       <NavLink to='/banco-condensadores' className='enlace_blog'>
-        <h3 className="titulo_blog">   Cómo evitar recargos con un banco de condensadores     </h3>
+        <h3 className="titulo_blog">   Banco de condensadores     </h3>
           <img className="imagen_blog_2"></img>
       </NavLink>
       </article>
@@ -39,7 +46,7 @@ const Blog = (props) => {
       
       <article className="caja_articulo">
       <NavLink to='/megado' className='enlace_blog'> 
-        <h3 className="titulo_blog">Pagas demaciado en la factura de luz? Comprueba si tienes fugas!    </h3>
+        <h3 className="titulo_blog">Comprueba si tienes fugas!    </h3>
           <img className="imagen_blog_5"></img>
       </NavLink>
       </article>

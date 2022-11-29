@@ -109,6 +109,15 @@ body{
     height: 20vw;
     margin: 5px;
   }
+  .imagen_blog_7{
+    background-image: url(../Imagenes/reglas.jpg) ;
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 20vw;
+    margin: 5px;
+  }
   @media screen and (max-width: 600px) {
     .Caja_2_blog{
       width: 100vw;

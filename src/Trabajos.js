@@ -15,7 +15,7 @@ const Trabajos = (props) => {
 
       <section className="reseña-trabajo"><h3>Informes reglamentarios AEA</h3>
       <img className="imagentra7"></img><h4>
-      Se realiza un examen de las instalaciones y se elabora un informe 
+      Se realiza un examen de las instalaciones elaborando un informe 
       basado en las normas que ofrece la Asociación Electroténica Argentina.
       </h4>
       </section>

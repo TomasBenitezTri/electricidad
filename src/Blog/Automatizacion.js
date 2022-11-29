@@ -10,7 +10,7 @@ const Automatizacion = (props) => {
     La utilización de los distintos tipos de aparatos de maniobras (contactores, interruptores, interruptores automáticos, etcétera) y de protección disponibles (fusibles, guardamotores, relés automáticos, etcétera) permite la realización de diversos esquemas de comando y control para el funcionamiento.
     Para la determinación de los parámetros eléctricos de la protección de los motores hace falta conocer: corriente nominal o asignada, corriente de arranque, tiempo de arranque y características del equipo impulsado. Al respecto de estos parámetros, de los dos últimos se puede decir: que el tiempo de arranque es extremadamente breve e imposible de determinar en forma simple; y en cuanto a las características del equipo impulsado, solo se puede apreciar a simple vista si el motor eléctrico lo hace rápidamente o no.
 
-    <h3>Protección contra cortocircuitos</h3>
+    <h4>Protección contra cortocircuitos</h4>
     Se emplean fusibles o guardamotores magnéticos. En el caso de los primeros, son especialmente construidos y son del tipo aM. La corriente eléctrica nominal de estos fusibles puede tomarse para los motores eléctricos con rotor en cortocircuito como: 2,0 x IN. En donde IN es la corriente nominal o asignada. El guardamotor que es solamente magnético cumple la misma función que los fusibles, y se usa la misma forma de elegir el calibre.
     </span>
     </div>
