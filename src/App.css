@@ -229,6 +229,11 @@ span{
     height: 45vw;
   }
 
+  .imagentra7{
+    width: 80vw;
+    height: 60vw;
+  }
+
   /**Home media-screen**/
   h1{
     font-size: 8vw;
@@ -268,6 +273,7 @@ span{
   }
   .imagent3{
     width: 45vw;
+    background-size: 80%;
   }
   .imagent4{
     width: 45vw;
@@ -327,6 +333,12 @@ span{
     height: 50vw;
   }
   .imagentra6{
+    width: 90vw;
+    height: 65vw;
+    background-size: 110%;
+    border-radius: 20px;
+  }
+  .imagentra7{
     width: 90vw;
     height: 65vw;
     background-size: 110%;
