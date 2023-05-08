@@ -20,12 +20,12 @@ h2{
 }
 
 h3{
-  font-size: 4vw;
+  font-size: 3vw;
   margin-bottom: 5px;
 }
 
 h4{
-  font-size: 3.5vw;
+  font-size: 2.5vw;
   margin: 5px;
 }
 
@@ -184,6 +184,16 @@ span{
 }
 .imagentra7{
   background-image: url(../Imagenes/aea.jpg);
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40vw;
+  height: 30vw;
+  margin: auto;
+  border-radius: 10px;
+}
+.imagentra8{
+  background-image: url(../Imagenes/Trabajos/aire.jpg);
   background-size: 110%;
   background-position: center;
   background-repeat: no-repeat;

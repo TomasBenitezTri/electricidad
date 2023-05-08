@@ -13,6 +13,11 @@ const Trabajos = (props) => {
       señalización de estados eléctricos y más.</h4>
       </section>
 
+      <section className="reseña-trabajo"><h3>Refrigeración</h3>
+      <img className="imagentra8"></img><h4>
+      Instalación y mantenimiento de Aires Acondicionados.</h4>
+      </section>
+
       <section className="reseña-trabajo"><h3>Informes reglamentarios AEA</h3>
       <img className="imagentra7"></img><h4>
       Se realiza un examen de las instalaciones elaborando un informe 
