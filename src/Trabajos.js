@@ -15,7 +15,7 @@ const Trabajos = (props) => {
 
       <section className="reseña-trabajo"><h3>Refrigeración</h3>
       <img className="imagentra8"></img><h4>
-      Instalación y mantenimiento de Aires Acondicionados.</h4>
+      Instalación, mantenimiento y reparación de Aires Acondicionados, heladeras y cámara frigoríficas.</h4>
       </section>
 
       <section className="reseña-trabajo"><h3>Informes reglamentarios AEA</h3>

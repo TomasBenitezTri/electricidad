@@ -5,11 +5,7 @@ const Home = (props) => {
     <div className="App">
       <header className="Header">
 
-      <h3>Trabajos en electricidad industrial, comercial y domiciliaria.</h3>
-
-      <h3>Evaluación y bobinado de motores eléctricos trifásicos y monofásicos.</h3>
-
-      <h3>Refrigeración, instalacíon y mantenimiento de aires acondicionados.</h3>
+      <h3> </h3>
       
       <div className="caja_home">
       <img className="imagent1"></img>

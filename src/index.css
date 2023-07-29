@@ -91,15 +91,7 @@ body{
     height: 20vw;
     margin: 5px;
   }
-  .imagen_blog_5{
-    background-image: url(../Imagenes/Blog/megado.jpg) ;
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 30vw;
-    height: 20vw;
-    margin: 5px;
-  }
+
   .imagen_blog_6{
     background-image: url(../Imagenes/Blog/foto_motor1.jpg) ;
     background-size: 100%;

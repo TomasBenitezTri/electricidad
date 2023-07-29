@@ -14,9 +14,7 @@ import {Armonicos} from './Blog/Armonicos';
 import {Automatizacion} from './Blog/Automatizacion';
 import {Banco} from './Blog/Banco';
 import {Conductor} from './Blog/Conductor';
-import {Mantenimiento} from './Blog/Mantenimiento';
-import {Megado} from './Blog/Megado';
-import {Reglas} from './Blog/Reglas';
+
 
 // Fin artículos blog
 
@@ -35,9 +33,7 @@ function App() {
           <Route path='/automatizacion' element = {<Automatizacion/>} />
           <Route path='/banco-condensadores' element = {<Banco/>} />
           <Route path='/conductor' element = {<Conductor/>} />
-          <Route path='/mantenimiento-motores' element = {<Mantenimiento/>} />
-          <Route path='/megado' element = {<Megado/>} />
-          <Route path='/informe' element = {<Reglas/>} />
+
       </Routes> 
     <Footer/>
     </Router>

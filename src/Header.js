@@ -4,7 +4,7 @@ const Header = (props) =>{
     return(
         <div>
                 <h1>Tomas Benitez</h1>
-                <h2>Electricista industrial</h2>
+                <h2>Electricidad y Refrigeración</h2>
         </div> 
     );
 }

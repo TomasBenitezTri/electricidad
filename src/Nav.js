@@ -7,7 +7,6 @@ const Nav = (props) =>{
         <form className='nav'>
             <a className='cajanav'> <NavLink to='/' className='cajanavlink'> Inicio </NavLink> </a>
             <a className='cajanav'> <NavLink to='/trabajos' className='cajanavlink'> Trabajos </NavLink> </a>
-            <a className='cajanav'> <NavLink to='/blog' className='cajanavlink'> Blog </NavLink> </a>
         </form>
         </nav> 
     );
